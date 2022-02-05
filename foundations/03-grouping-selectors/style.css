@@ -1,0 +1,12 @@
+.first-item, .second-item{
+    font-size: 28px;
+    font-family: Helvetica,"Times New Roman", sans-serif;
+}
+
+.first-item{
+    background-color: black;
+    color: white;
+}
+.second-item{
+    background-color: yellow;
+}

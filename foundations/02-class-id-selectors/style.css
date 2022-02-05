@@ -1,0 +1,18 @@
+.odd-items{
+    background-color: #fea491;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.odd-items.third-item{
+    font-size: 24px;
+}
+
+#second-item{
+    color: #118dfc;
+    font-size: 36px;
+}
+
+#fourth-item{
+    background-color: #c6f18e;
+    font-size: 24px;
+    font-weight: bold;
+}

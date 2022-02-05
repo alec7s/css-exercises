@@ -20,6 +20,11 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  
+  /*Added*/
+  display: flex;
+  flex-direction: row;
+  padding: 12px;
 }
 
 .icon {
@@ -46,6 +51,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  /*Added*/
+  margin-left: auto;
 }
 
 button {
@@ -63,4 +71,16 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+/*Added*/
+.column{
+  min-width: 50px;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  padding: 6px;
 }
